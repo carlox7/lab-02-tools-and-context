@@ -24,4 +24,4 @@ console.log(mew);
 
 exports.say.apply(pikachu, ['Pika pi Pikachu']);
 
-exports.say.apply(mew, ['Meewwwwwwwww!']);
+exports.say.apply(mew, ['Mew']);
