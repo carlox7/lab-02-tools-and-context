@@ -14,6 +14,15 @@ describe('lab.js', function() {
     it('should return Mew says \"Mew\"', function() {
       assert.equal(lab.say(lab.mew, 'Mew says \"Mew\"'));
     });
+    it('should return a string', function() {
+      assert.equal(typeof lab.say(lab.mew, 'Mew'), 'string');
+    });
+  });
+  describe('#Pokemon', function() {
+    it('should return a pokemon name', function() {
+      let pikachu = new lab.Pokemon('Pikachu', 'electric');
+      assert.equal(pikachu.name, 'Pikachu');
+    });
   });
 });
 
