@@ -7,7 +7,6 @@ describe('lab.js', function() {
   describe('#LegendaryPokemon', function() {
     it('should return a legendary pokemon', function() {
       let mew = new lab.LegendaryPokemon('Mew', 'psychic');
-
       assert.equal(mew.isLegendary, true);
     });
   });
